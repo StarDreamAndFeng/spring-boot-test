@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- 不仅可以在 BeanConfig 中创建对象，也可以在 xml 文件中创建对象 -->
+    <bean id="user01" class="com.fly.boot.bean.User">
+        <property name="id" value="2"/>
+        <property name="name" value="李四"/>
+    </bean>
+</beans>

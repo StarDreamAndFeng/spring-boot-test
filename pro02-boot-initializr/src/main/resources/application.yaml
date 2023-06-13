@@ -1,0 +1,33 @@
+person:
+  user-name: 张三
+  boss: true
+  birth: 2023/2/7
+  age: 25
+  interests: [篮球,排球,足球]
+  animal:
+    - 猴子
+    - 狗
+    - 猫
+  score:
+    chinese: 80
+    math: 98
+    english: 79
+  salarys: [98.8,29.7,102.87]
+  pet: [{name: 汤姆,}]
+  all-pets:
+    sick: [{name: 汤姆,weight: 9.9},{name: 杰瑞,weight: 8.6}]
+    heathy: [{name: 糯米,weight: 19.9},{name: 汤圆,weight: 9.6}]
+
+# 浏览器请求 url 地址时,发送的数据最外层区域
+send:
+  body:
+    status: true
+    massage: success
+    code: 暂时不支持
+    data:
+      - name: 汤姆
+        weight: 9.9
+      - name: 杰瑞
+        weight: 8.6
+
+

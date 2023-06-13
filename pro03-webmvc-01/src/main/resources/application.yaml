@@ -1,0 +1,4 @@
+#spring:
+#  mvc:
+#    # 静态资源访问前缀
+#    static-path-pattern: /res/**
